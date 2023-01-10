@@ -7,6 +7,7 @@ import Map from '../components/Map';
 export default function Home() {
 
   return (
+    <>
     <div className={styles.container}>
       <Head>
         <title>Translink</title>
@@ -85,5 +86,6 @@ export default function Home() {
         
 
     </div>
+    </>
   )
 }
