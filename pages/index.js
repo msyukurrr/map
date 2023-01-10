@@ -16,6 +16,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Image
+        alt='translink logo'
         src={"/../public/translink.svg.png"}
         width="200"
         height="100"></Image>
@@ -48,7 +49,9 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <div style={{display:'flex', flexDirection:'row', justifyContent:'center'}}>
-          <Image src={'/../public/dumpling.png'}
+          <Image 
+          alt='dumpling image'
+          src={'/../public/dumpling.png'}
           width='200'
           height='200'></Image>
             
