@@ -1,5 +1,7 @@
 .container {
-  padding: 0 2rem;
+  font-family: 'Poppins', sans-serif;
+  background-color:#f4f1de;
+  color: #3d405b;
 }
 
 .main {
@@ -12,20 +14,30 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
+.infodiv {
   flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.footer {
+  margin-top: 2rem;
+  background-color: #81b29a;
+  width: 100%;
+  display: flex;
+
+}
+
 .footer a {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-grow: 1;
+  margin: 5px;
+}
+
+.footer a:hover{
+  text-decoration: underline;
 }
 
 .title a {
@@ -129,6 +141,12 @@
 }
 
 .map{
-  width: 100%;
+  width: 80%;
   height: 40rem;
+  border-radius: 2%;
+  border: solid #e07a5f 10px;
+}
+
+.footerimage{
+  margin:30px;
 }
